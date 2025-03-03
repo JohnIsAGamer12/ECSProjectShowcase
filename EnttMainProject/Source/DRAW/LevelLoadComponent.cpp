@@ -100,7 +100,7 @@ namespace DRAW
 					modelManager.models[model.blendername] = meshCollection;
 				}
 
-				// check if the current modeil is collidable
+				// check if the current model is collidable
 				if (cpuLevel->levelData.levelModels[model.modelIndex].isCollidable)
 				{
 					auto wallCollider = registry.create();
